@@ -1,0 +1,287 @@
+/*home view start*/
+
+#name {
+  font-family: "Anonymous Pro";
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  color: #001CF5;
+}
+
+#home_body {
+  background-image: url("bg.png");
+  background-size: 1920px;
+  height: 4320px;
+}
+
+.menu {
+  display: flex;
+}
+
+#menu-text {
+  font-family: "Anonymous Pro";
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin-top: 220px;
+  margin-left: 50px;
+}
+
+.menu-item {
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active {
+  window.
+}
+a:visited {
+  color: #001CF5;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: -400px;
+}
+
+.intro-text {
+  font-family: "Archivo Black";
+  color: #E86851;
+  text-align: center;
+}
+
+.intro-text-big {
+  font-size: 100px;
+  line-height: 20px;
+}
+
+.intro-text-small {
+  font-size: 40px;
+  line-height: 20px;
+}
+
+.intro-text-med {
+  font-size: 60px;
+  line-height: 20px;
+}
+
+#intro-highlight {
+  background-color: #F1E2DD;
+}
+
+#intro-accent-make {
+  color: #001CF5;
+}
+
+#home-arrow {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+/* .arrow-1 {
+  width: 26.5px;
+  height: 37px;
+} */
+
+/*home view end*/
+
+/*about view start*/
+
+#about-view-text {
+  font-family: "Anonymous Pro";
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 400px;
+  color: #001CF5;
+}
+
+#image {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-right: 40px;
+}
+.cat {
+  width: 387px;
+  height: 286.5px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+@keyframes rotate {
+           from { transform: rotate(0deg); }
+           to { transform: rotate(360deg);}
+        }
+
+.cat {
+  animation-name: rotate;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 200;
+}
+
+/* .about-body {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-around;
+} */
+
+#about-body-text {
+  font-family: "Anonymous Pro";
+  font-weight: bold;
+  font-size: 16px;
+  color: #E86851;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-right: 250px;
+  margin-left: 250px;
+  line-height: 50px;
+}
+
+#accent-diana {
+  color: #001CF5;
+}
+
+#accent-graphic {
+  color: #001CF5;
+}
+
+#accent-web {
+  color: #001CF5;
+}
+
+#accent-interaction {
+  color: #001CF5;
+}
+
+/*about view end*/
+
+/*work view start*/
+
+#work-view-text {
+  font-family: "Anonymous Pro";
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 200px;
+  color: #001CF5;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-around;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+.work1 {
+  width: 327.75px;
+  height: 417.75px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.work2 {
+  width: 353px;
+  height: 351.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.work3 {
+  width: 525.6px;
+  height: 329.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.work1:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+.work2:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+.work3:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+/*work view end*/
+
+/*contact view start*/
+
+.contact-view-text {
+  font-family: "Anonymous Pro";
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #001CF5;
+  margin-top: 650px;
+}
+
+.contact-body-text {
+  font-family: "Archivo Black";
+  color: #E86851;
+  text-align: center;
+  font-size: 100px;
+}
+
+.email-me-text {
+  font-family: "Anonymous Pro";
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #001CF5;
+}
+
+.my-email {
+  font-family: "Anonymous Pro";
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #001CF5;
+}
+/*contact view end*/
